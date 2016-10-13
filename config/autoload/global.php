@@ -13,4 +13,9 @@
 
 return [
     // ...
+	'db' => [
+		'driver' => 'Pdo',
+		'dsn' => 'mysql:dbname=stickynotes;host=localhost',
+		
+	]
 ];
